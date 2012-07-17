@@ -1,4 +1,4 @@
-var jenkinsapi = require('./jenkinsapi');
+var jenkinsapi = require('./lib/main.js');
 
 
 var jenkins = jenkinsapi.init("http://username:password@jenkins.yoursite.com");
